@@ -1,0 +1,368 @@
+*{
+	padding:0;
+	margin:0;
+}
+.content{
+	width:1364px;
+	height:665px;
+	border:1px solid #ccc;
+	overflow: hidden;
+	background: #60ADFB;
+
+}
+body{
+	overflow: hidden;
+}
+/*.lefts{
+	width:300px;
+	height:455px;
+	float: left;
+	background-image:url(4.jpg);
+	background:#60ADFB;
+	background-size:110%;
+	background-position:  center 10px;
+}*/
+.bottoms{
+	width:1364px;
+	height:210px;
+	float: left;
+	/*background-color:#14D395; */
+	background-image: url(a.jpg);
+	background-position: center -150px;
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	float: left;
+}
+.snake{
+	width:1324px;
+	height:452px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	/*background: url(12.jpg);*/
+	background-size: cover;
+	background-position:-40px -265px;
+	background: #60ADFB;
+	/*border:2px solid #108A0E;*/
+
+}
+.gezi{
+	width:30px;
+	height:30px;
+	/*background: url(31.jpg);*/
+	/*background:green;*/
+	background:#3DAB00;
+	float: left;
+	position: relative;
+	border-radius: 50%;
+}
+.gezi.shetouyou{
+	background: url(4.png);
+	background-size:130%;
+	background-position: center center;
+}
+.gezi.shetouzuo{
+	background: url(4.png);
+	background-size:130%;
+	transform:rotateY(180deg);
+	background-position: center center;
+
+}
+.gezi.shetouxia{
+	background: url(4.png);
+	background-size:130%;
+	transform:rotateZ(90deg);
+	background-position: center center;
+
+}
+.gezi.shetoushang{
+	background: url(4.png);
+	background-size:130%;
+	transform:rotate(270deg);
+	background-position: center center;
+
+}
+.gezi.sheshen{
+	background: url(6.png);
+	background-size:120%;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+}
+.gezi.yellow{
+	background: url(2.png);
+	background-size: cover;
+}
+.kaishile{
+	width:100%;
+	height:665px;
+	background-image:url(1.jpg);
+	position: absolute;
+	left: 0;
+	top:0;
+	background-size: cover; 
+}
+
+/*分数*/
+.grades{
+	width:30px;
+	height:20px;
+	color:#000;
+	position: absolute;
+	top:-30px;
+	left:-20px;
+	opacity:0;
+	font-size: 30px;
+	font-weight: bold;
+}
+.begin,.shezhi,.zuogaojilu,.bangzhu{
+	position: absolute;
+	width:202px;
+	height:45px;
+	border-width:1px;
+	border-radius: 80px;
+}
+.kaishi{
+	position: absolute;
+	font-size: 36px;
+	font-weight: bold;
+	color:#000;
+	font-family: '楷体';
+	top:143px;
+	left: 615px;
+	cursor:pointer;
+	transform:translateY(-2000px);
+	transtion:all .8s ease;
+}
+.kaishi.xialai{
+	transform:translateY(0px);
+	transition:0.8s all ease;
+}
+
+.zantingxia{
+	position: absolute;
+	font-size: 36px;
+	font-weight: bold;
+	color:#000;
+	font-family: '楷体';
+	top:104px;
+	left: 314px;
+	cursor:pointer;
+	transform:translateY(-2000px);
+	transtion:all .8s ease;
+}
+.zantingxia.xialai{
+	transform:translateY(0px);
+	transition:0.8s all ease;
+}
+.dangqianfenshu{
+	position: absolute;
+	font-size: 36px;
+	font-weight: bold;
+	color:#000;
+	font-family: '楷体';
+	top:61px;
+	left: 471px;
+	cursor:pointer;
+	transform:translateY(-2000px);
+	transtion:all .8s ease;
+}
+.dangqianfenshu.xialai{
+	transform:translateY(0px);
+	transition:0.8s all ease;
+}
+.dangqianfenshu span{
+	color:#031BE2;
+}
+.nandu{
+	position: absolute;
+	font-size: 36px;
+	font-weight: bold;
+	color:#000;
+	font-family: '楷体';
+	top:72px;
+	left: 702px;
+	cursor:pointer;
+	transform:translateY(-2000px);
+	transtion:all .8s ease;
+}
+.nandu.xialai{
+	transform:translateY(0px);
+	transition:0.8s all ease;
+}
+.chongxinkaishi{
+	position: absolute;
+	font-size: 36px;
+	font-weight: bold;
+	color:#000;
+	font-family: '楷体';
+	top:33px;
+	left:35px;
+	cursor:pointer;
+}
+.nanduxuanze{
+	width:100px;
+	height:50px;
+	position: absolute;
+	top:150px;
+	left: 829px;
+	/*background: #60ADFB;*/
+	font-family: '楷体';
+	font-size: 24px;
+	font-weight: bold;
+	transform:translateY(-2000px);
+	transition:0.8s all ease;
+}
+.nanduxuanze.xialai{
+	;transform:translateY(0);
+	transition:0.8s all ease;
+}
+
+.beijing{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:0 auto;
+	font-family: '楷体';
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 600px;
+	z-index: 22222;
+	/*display: none;*/
+}
+.zhuangsile{
+	width:600px;
+	height:270px;
+	background:#60ADFB;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	z-index: 12345789;
+	font-family: '楷体';
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 130px;
+	text-align: center;
+	display: none;
+}
+.shouxing{
+	width:50px;
+	height:50px;
+	background: url(b.png);
+	background-size: cover;
+	background-position: center center;
+	transform:rotateZ(225deg);
+	position: absolute;
+	top:218px;
+	left:258px;
+	animation:pao 2s linear forwards;
+}
+@keyframes pao{
+		0%{
+			transform:translate3d(0,0,0) rotateZ(225deg);
+		}
+		100%{
+			transform:translate3d(-545px,-295px,0) rotateZ(225deg);
+		}
+	}
+
+.bigx{
+	transform:translateY(1200px);	
+	}
+.bigx.chuxianle{
+	transform:translateY(0);
+	transition:all .6s ease ;	
+	}
+.bigx.xianxian{
+	transform:translateY(665px);
+	transition:all .8s ease ;	
+	}
+.men{
+	width:1366px;
+	height:667px;
+	position: absolute;
+	top:0;
+	left:0;
+	top:0;
+	bottom:0;
+	background:#60ADFB;
+	overflow: hidden;
+}
+.men.xiaoshi{
+	transform:translateY(-100%);
+	transition:all .8s ease;
+}
+.men.chuchu{
+	transform:translateY(0);
+	transition:all .6s ease;
+}
+.bubble{
+	border-radius: 50%;
+	position: absolute;
+}
+.bubble.yuanquan{
+	animation:paos  2s linear infinite forwards;
+}
+
+@keyframes paos{
+		0%{
+			transform:translate3d(0,0,0);
+		}
+		50%{
+			transform:translate3d(-245px,-295px,0);
+		}
+		100%{
+			transform:translate3d(0,0,0);
+		}
+	}
+
+.bubble.yuanquan2{
+	animation:paoss  2s linear infinite forwards;
+}
+
+@keyframes paoss{
+		0%{
+			transform:translate3d(0,0,0);
+		}
+		50%{
+			transform:translate3d(245px,295px,0);
+		}
+		100%{
+			transform:translate3d(0,0,0);
+		}
+	}
+
+
+.kaishiba{
+	width:500px;
+	height: 300px;
+	position: absolute;
+	top:0;
+	left: 0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	color:#000;
+	font-weight: bold;
+	font-size: 68px;
+	font-family: '楷体';
+	line-height: 300px;
+	text-align: center;
+	z-index: 12345678;
+	background: url(4.jpg);
+	background-size: cover;
+	background-position: center 20px;
+	cursor: pointer;
+	border-radius: 55px;
+	box-shadow: 0px 10px 3px #666;
+	color:blue;
+}
+#fanhui{
+	cursor: pointer;
+}

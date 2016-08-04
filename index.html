@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>snake</title>
+<script src='jquery-1.12.3.min.js'></script>
+<script src='index.js'></script>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class='men'>
+		<div class='kaishiba'>
+			单击开始贪吃蛇
+		</div>
+	</div>
+	<div class='bigx'>
+	<div class='beijing'>点击空格键开始游戏</div>
+	<div class='zhuangsile'>
+			<div>撞到墙了</div>
+           <div class='fenshu'></div>
+           <div><span><div class='shouxing'></div>新一局</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id='fanhui'>返回</span></div>
+	 </div>
+	<audio src="1.mp3" id='audio'></audio>
+	<div class='content'>
+		<div class='bottoms'>
+			<div class='chongxinkaishi'>重新开始</div>
+			<div class='kaishi'>开始</div>
+			<div class='zantingxia'>暂停</div>
+			<div class='dangqianfenshu'>分数:<span>0</span></div>
+			<div class='nandu'>难度</div>
+			<div class='nanduxuanze'>
+				<div>简单:<input type="checkbox" id='one' checked></div>
+				<div>困难:<input type="checkbox" id='two'></div>
+			</div>
+		</div>
+		<div class='lefts'></div>
+		<div class='snake'></div>
+	</div>
+</div>
+</body>
+</html>
